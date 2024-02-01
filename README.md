@@ -20,17 +20,19 @@ go build main.go
 ```
 
 # The result of the program
-- System:   Windows 10
-- Name:     PC
-- CPU:      AMD Ryzen5 3600 6-Core
-- RAM:      DDR4 16GB
+```php
+System:   Windows 10
+Name:     PC
+CPU:      AMD Ryzen5 3600 6-Core
+RAM:      DDR4 16GB
 
-- Average time: 	9.5ms		(n = 100 000)
-- Average time:  	 85ms	  (n = 1 000 000)
-- Average time: 	850ms	 (n = 10 000 000)
-- Average time: 	8.33s	(n = 100 000 000)
+Average time: 	9.5ms		(n = 100 000)
+Average time:  	 85ms	  (n = 1 000 000)
+Average time: 	850ms	 (n = 10 000 000)
+Average time: 	8.33s	(n = 100 000 000)
 
-- Note: The first test usually takes longer to generate, so I don't count it.
+Note: The first test usually takes longer to generate, so I don't count it.
+```
 
 
 ## Golang SHA256 Benchmark CPU Test 100000
