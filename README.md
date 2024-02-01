@@ -7,13 +7,17 @@
 - I collect test results in an excel table. And I will be grateful to all people who repeat this test and send me tests of their processors in the comments.
 
 # For Windows build.bat
-- go build main.go
-- main
-- pause
+```php
+go build main.go
+main
+pause
+```
 
 # For Linux and Mac Termanal
-- go build main.go
-- ./main
+```php
+go build main.go
+./main
+```
 
 # The result of the program
 - System:   Windows 10
