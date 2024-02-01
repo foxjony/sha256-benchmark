@@ -13,6 +13,9 @@
 
 ![Table Сollect resultsl](https://github.com/foxjony/sha256-benchmark/blob/main/Result.png)
 
+Go in 100 Seconds
+- https://www.youtube.com/watch?v=446E-r0rXHI
+
 Golang download and install
 - https://go.dev/doc/install
 
