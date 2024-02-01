@@ -19,20 +19,20 @@ Go in 100 Seconds
 Golang download and install
 - https://go.dev/doc/install
 
-# For Windows build.bat
+For Windows build.bat
 ```
 go build main.go
 main
 pause
 ```
 
-# For Linux and Mac Termanal
+For Linux and Mac Termanal
 ```
 go build main.go
 ./main
 ```
 
-# The result of the program
+The result of the program
 ```
 System:   Windows 10
 Name:     PC
