@@ -20,13 +20,13 @@ go build main.go
 ```
 
 # The result of the program
-```js
+```
 System:   Windows 10
 Name:     PC
 CPU:      AMD Ryzen5 3600 6-Core
 RAM:      DDR4 16GB
 
-Average time: 	9.5ms	(n = 100 000)
+Average time: 	9.5ms	    (n = 100 000)
 Average time:  	 85ms	  (n = 1 000 000)
 Average time: 	850ms	 (n = 10 000 000)
 Average time: 	8.33s	(n = 100 000 000)
