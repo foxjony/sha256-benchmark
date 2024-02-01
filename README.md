@@ -1,20 +1,21 @@
 # Golang SHA256 Benchmark CPU Test
-
-- This is a very simple and reliable performance test of your processor that shows its speed compared to other processors.
-- You can test both powerful computers and laptops, as well as tablets, mobile phones and TV-boxes.
-- This is a good example to start learning about a very fast programming language Golang.
-- This program does not use third-party libraries, it uses only three standart libraries of the golang compiler.
-- I collect test results in an excel table. And I will be grateful to all people who repeat this test and send me tests of their processors in the comments.
+```
+This is a very simple and reliable performance test of your processor that shows its speed compared to other processors.
+You can test both powerful computers and laptops, as well as tablets, mobile phones and TV-boxes.
+This is a good example to start learning about a very fast programming language Golang.
+This program does not use third-party libraries, it uses only three standart libraries of the golang compiler.
+I collect test results in an excel table. And I will be grateful to all people who repeat this test and send me tests of their processors in the comments.
+```
 
 # For Windows build.bat
-```php
+```
 go build main.go
 main
 pause
 ```
 
 # For Linux and Mac Termanal
-```php
+```
 go build main.go
 ./main
 ```
@@ -34,7 +35,7 @@ Average time: 	8.33s	(n = 100 000 000)
 Note: The first test usually takes longer to generate, so I don't count it.
 ```
 
-```php
+```
 Golang SHA256 Benchmark CPU Test 100000
 1  time: 11.5231ms
 2  time: 9.8688ms
