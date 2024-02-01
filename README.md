@@ -3,7 +3,7 @@
 - You can test both powerful computers and laptops, as well as tablets, mobile phones and TV-boxes.
 - This is a good example to start learning about a very fast programming language Golang.
 - To do this, you need to compile and run the file: main.go
-- This program does not use third-party libraries, it uses only three standart libraries of the golang compiler.
+- This program does not use third-party libraries, it uses only three standart libraries of the Golang compiler.
 - I collect test results in an excel table. And I will be grateful to all people who repeat this test and send me tests of their processors in the comments. Also show this test to your friends.
 
 # For Windows build.bat
