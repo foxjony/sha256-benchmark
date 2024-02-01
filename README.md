@@ -29,11 +29,11 @@ Average time: 	9.5ms	    (n = 100 000)
 Average time:  	 85ms	  (n = 1 000 000)
 Average time: 	850ms	 (n = 10 000 000)
 Average time: 	8.33s	(n = 100 000 000)
+```
 
+```
 Note: The first test usually takes longer to generate, so I don't count it.
-```
 
-```
 Golang SHA256 Benchmark CPU Test 100000
 1  time: 11.5231ms
 2  time: 9.8688ms
