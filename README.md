@@ -13,6 +13,9 @@
 
 ![Table Сollect resultsl](https://github.com/foxjony/sha256-benchmark/blob/main/Result.png)
 
+Golang download and install
+- https://go.dev/doc/install
+
 # For Windows build.bat
 ```
 go build main.go
