@@ -7,13 +7,10 @@
 - Algorithm: the program generates 1,000,000 hash sums by adding them to the table in RAM.
 - I collect test results in an excel table. And I will be grateful to all people who repeat this test and send me tests of their processors in the comments. Also show this test to your friends.
 
-* Table Сollect results
 ![Table Сollect resultsl](https://github.com/foxjony/sha256-benchmark/blob/main/Table.png)
 
-* Source
 ![Source](https://github.com/foxjony/sha256-benchmark/blob/main/Source.png)
 
-* Result
 ![Table Сollect resultsl](https://github.com/foxjony/sha256-benchmark/blob/main/Result.png)
 
 # For Windows build.bat
