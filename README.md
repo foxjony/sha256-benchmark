@@ -7,12 +7,16 @@
 - Algorithm: the program generates 1,000,000 hash sums by adding them to the table in RAM. This is repeated 9 times and each time the time spent on the action is displayed. The shorter the time, the faster the device. Regardless of the number of cores on your processor, only one core is tested.
 - I collect test results in an excel table. And I will be grateful to all people who repeat this test and send me tests of their processors in the comments. Also show this test to your friends.
 
-![Table Сollect resultsl](https://github.com/foxjony/sha256-benchmark/blob/main/Table.png)
+# Table result: Golang SHA256 Benchmark CPU Test.xlsx
+![Table Сollect result](https://github.com/foxjony/sha256-benchmark/blob/main/Table.png)
 
-![Source](https://github.com/foxjony/sha256-benchmark/blob/main/Source.png)
+# Source code: main.go 
+![Source code](https://github.com/foxjony/sha256-benchmark/blob/main/Source.png)
 
-![Table Сollect resultsl](https://github.com/foxjony/sha256-benchmark/blob/main/Result.png)
+# Programm result
+![Programm result](https://github.com/foxjony/sha256-benchmark/blob/main/Result.png)
 
+# Instruction
 Go in 100 Seconds
 - https://www.youtube.com/watch?v=446E-r0rXHI
 
