@@ -16,6 +16,9 @@
 Go in 100 Seconds
 - https://www.youtube.com/watch?v=446E-r0rXHI
 
+Хауди Хо: Как выучить GO? Самый аху#### способ!
+- https://www.youtube.com/watch?v=sP-wNhqgp9U
+
 Golang download and install
 - https://go.dev/doc/install
 
