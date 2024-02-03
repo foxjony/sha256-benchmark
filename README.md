@@ -10,13 +10,13 @@
 ## Table of results: Golang SHA256 Benchmark CPU Test.xlsx
 ![Table of results](https://github.com/foxjony/sha256-benchmark/blob/main/Table.png)
 
-# Source code: main.go 
+## Source code: main.go 
 ![Source code](https://github.com/foxjony/sha256-benchmark/blob/main/Source.png)
 
-# The result of the program
+## The result of the program
 ![The result of the program](https://github.com/foxjony/sha256-benchmark/blob/main/Result.png)
 
-# Instruction
+## Instruction
 Go in 100 Seconds
 - https://www.youtube.com/watch?v=446E-r0rXHI
 
