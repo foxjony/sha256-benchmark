@@ -19,6 +19,9 @@ Go in 100 Seconds
 Хауди Хо: Как выучить GO? Самый аху#### способ!
 - https://www.youtube.com/watch?v=sP-wNhqgp9U
 
+Гоша Дударь: Изучение Golang (Создание веб сайта) / #1 – Введение в язык Go
+- https://www.youtube.com/watch?v=OcWMQPPOq-0
+
 Golang download and install
 - https://go.dev/doc/install
 
