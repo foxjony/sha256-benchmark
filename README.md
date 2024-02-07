@@ -29,6 +29,9 @@ Go in 100 Seconds
 Golang download and install
 - https://go.dev/doc/install
 
+Golang Online Test Programm
+- https://go.dev/play/p/oCVOE4xkIt7
+
 For Windows build.bat
 ```
 go build main.go
