@@ -30,7 +30,7 @@ Golang download and install
 - https://go.dev/doc/install
 
 Golang Online Test Programm
-- https://go.dev/play/p/oCVOE4xkIt7
+- https://go.dev/play/p/I4NnsnNQ91-
 
 For Windows build.bat
 ```
