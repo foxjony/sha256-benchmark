@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	fmt.Println("\nGolang SHA256 Benchmark CPU Test")
+	fmt.Println("\nGolang SHA256 Benchmark CPU Test\n")
 	var timeAverage float64
 	h := []byte("Benchmark")
 	hash := sha256.Sum256(h)
@@ -25,7 +25,7 @@ func main() {
 		var duration time.Duration = end.Sub(start)
 		var di64 = float64(duration)
 		if (j > 1) {timeAverage += di64/1000000}
-		fmt.Println(j, " time:", duration)
+		fmt.Printf("%d time: %.2f ms\n", j, di64/1000000)
 	}
 	fmt.Printf("\nTime Average: %.2f ms\n\n", timeAverage/8)
 	var a string
