@@ -3,35 +3,31 @@
 // Golang SHA256 Benchmark CPU Test
 
 import (
+	"crypto/sha256"
 	"fmt"
 	"time"
-	"crypto/sha256"
 )
 
-func benchmark(n int) {
+func main() {
+	fmt.Println("\nGolang SHA256 Benchmark CPU Test")
+	var timeAverage float64
 	h := []byte("Benchmark")
 	hash := sha256.Sum256(h)
-	//fmt.Printf("sha256: %x\n\n", hash)
-	for j := 1; j<10; j++ {
+	for j := 1; j < 10; j++ {
 		start := time.Now()
 		m := [][32]byte{}
-		for i := 0; i<n; i++ {
+		for i := 0; i < 1000000; i++ {
 			hash = sha256.Sum256(h)
 			m = append(m, hash)
 		}
 		m = nil
 		end := time.Now()
-		fmt.Println(j, " time:", end.Sub(start))
+		var duration time.Duration = end.Sub(start)
+		var di64 = float64(duration)
+		if (j > 1) {timeAverage += di64/1000000}
+		fmt.Println(j, " time:", duration)
 	}
-}
-
-func main() {
-	fmt.Println("\nGolang SHA256 Benchmark CPU Test 100000")
-	benchmark(100000)
-	fmt.Println("\nGolang SHA256 Benchmark CPU Test 1000000")
-	benchmark(1000000)
-	fmt.Println("\nGolang SHA256 Benchmark CPU Test 10000000")
-	benchmark(10000000)
-	//fmt.Println("\nGolang SHA256 Benchmark CPU Test 100000000")
-	//benchmark(100000000)	// If RAM >8GB
+	fmt.Printf("\nTime Average: %.2f ms\n\n", timeAverage/8)
+	var a string
+	fmt.Scan(&a)
 }
