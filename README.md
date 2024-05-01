@@ -48,6 +48,6 @@ go build main.go
 - Note: The first test usually takes longer to generate, so I don't count it.
 
 Youtube "Golang SHA256 Benchmark CPU Test"
-- (EN) https://youtu.be/Jb80fjiZ7Q4
-- (UA) https://youtu.be/La8AW8Ea8oo
-- (RU) https://youtu.be/VgIcPGdKvsg
+- (EN) https://youtu.be/zDBve2iOUuk
+- (UA) https://youtu.be/S-YLmRWMlq0
+- (RU) https://youtu.be/jBGwUaxNwfA
