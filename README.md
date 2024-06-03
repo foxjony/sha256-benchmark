@@ -49,7 +49,8 @@ go build main.go
 
 ## Wokwi
 Algorithm SHA256 fof ESP32 in Online Web Simulator Wokwi
-- https://wokwi.com/projects/398636708003334145
+- https://wokwi.com/projects/398636708003334145 - SHA-256 for ESP32
+- https://wokwi.com/projects/399641258558275585 - SHA-256 for ESP32-C3
 
 ## Youtube
 Youtube "Golang SHA256 Benchmark CPU Test"
