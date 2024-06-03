@@ -47,6 +47,11 @@ go build main.go
 
 - Note: The first test usually takes longer to generate, so I don't count it.
 
+## Wokwi
+Algorithm SHA256 fof ESP32 in Online Web Simulator Wokwi
+- https://wokwi.com/projects/398636708003334145
+
+## Youtube
 Youtube "Golang SHA256 Benchmark CPU Test"
 - (EN) https://youtu.be/zDBve2iOUuk
 - (UA) https://youtu.be/S-YLmRWMlq0
