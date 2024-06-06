@@ -51,6 +51,9 @@ go build main.go
 
 - Note: The first test usually takes longer to generate, so I don't count it.
 
+## Debian Linux image for Android TV boxes with Amlogic
+- https://github.com/devmfc/debian-on-amlogic
+
 ## Wokwi
 Algorithm SHA256 fof "ESP32", "ESP32-C3", "Raspberry Pi Pico" and "STM32" in Online Web Simulator Wokwi:
 - https://wokwi.com/projects/398636708003334145 - SHA-256 for ESP32
