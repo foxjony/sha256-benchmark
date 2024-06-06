@@ -39,14 +39,12 @@ main
 pause
 ```
 
-For Linux Install Golang
-```
-apt-get install golang
-go vetsion
-```
-
 For Linux and Mac Termanal
 ```
+apt-get install golang -y
+go vetsion
+mkdir home/go && cd home/go
+wget https://raw.githubusercontent.com/foxjony/sha256-benchmark/main/main.go
 go build main.go
 ./main
 ```
