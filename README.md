@@ -39,6 +39,12 @@ main
 pause
 ```
 
+For Linux Install Golang
+```
+apt-get install golang
+go vetsion
+```
+
 For Linux and Mac Termanal
 ```
 go build main.go
