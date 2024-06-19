@@ -6,7 +6,6 @@
 - This program does not use third-party libraries, it uses only three standart libraries of the Golang compiler.
 - Algorithm: the program generates 1,000,000 hash sums by adding them to the table in RAM. This is repeated 9 times and each time the time spent on the action is displayed. The shorter the time, the faster the device. Regardless of the number of cores on your processor, only one core is tested.
 - I collect test results in an excel table. And I will be grateful to all people who repeat this test and send me tests of their processors in the comments. Also show this test to your friends.
-- I noticed one peculiarity. Testing different devices with my test, I saw different deltas of discrepancy in the 9 lines of the test. On some OS, the numbers are the same (or almost the same), and on others with a large discrepancy. This indicates an interruption of the OS to other processes. I know that Linux is not a real-time OS, but still some OSes work without heavy interruptions. This can be used to detect some type of viruses embedded in the OS.
 
 ## Table of results: Golang SHA256 Benchmark CPU Test.xlsx
 ![Table of results](https://github.com/foxjony/sha256-benchmark/blob/main/Table.png)
@@ -16,6 +15,8 @@
 
 ## The result of the program
 ![The result of the program](https://github.com/foxjony/sha256-benchmark/blob/main/Result.png)
+
+- I noticed one peculiarity. Testing different devices with my test, I saw different deltas of discrepancy in the 9 lines of the test. On some OS, the numbers are the same (or almost the same), and on others with a large discrepancy. This indicates an interruption of the OS to other processes. I know that Linux is not a real-time OS, but still some OSes work without heavy interruptions. This can be used to detect some type of viruses embedded in the OS.
 
 ## Instruction
 Go in 100 Seconds
