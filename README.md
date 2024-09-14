@@ -45,6 +45,7 @@ For Linux and Mac Termanal
 ```
 apt-get install golang -y
 go version
+cd /
 mkdir home/go && cd home/go
 wget https://raw.githubusercontent.com/foxjony/sha256-benchmark/main/main.go
 go build main.go
